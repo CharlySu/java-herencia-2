@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Main {
     private static Scanner sc = new Scanner(System.in);
-    // Aquí se instanciarían los gestores de las otras personas
-    // private static GestorFichajes gestorFichajes = new GestorFichajes();
+   private static GestorFichajes gestorFichajes = new GestorFichajes();
 
     public static void main(String[] args) {
         int opcionPrincipal;
